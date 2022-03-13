@@ -4,7 +4,7 @@ pipeline {
      maven 'M2_HOME'  
   }
    environment {
-    registry = "ulrichnjike/devop-code"
+    registry = "ulrichnjike/devop-pipeline"
     registryCredential = 'DockerUserID'
   }
   stages {
